@@ -1,7 +1,7 @@
 live website link: https://todolistbysuhana.netlify.app/
-# 🌸 Task Flow – Modern Task Management App
+# 🌸 To do list – Modern Task Management App
 
-Task Flow is a modern and responsive task management web application built using **HTML, CSS, and JavaScript**. It helps users organize daily tasks, set priorities, and manage productivity with a clean and attractive pink gradient interface.
+To do list is a modern and responsive task management web application built using **HTML, CSS, and JavaScript**. It helps users organize daily tasks, set priorities, and manage productivity with a clean and attractive pink gradient interface.
 
 ---
 
@@ -35,7 +35,7 @@ Task Flow is a modern and responsive task management web application built using
 
 ## 📂 Project Structure
 
-TaskFlow/
+To do list/
 │── index.html
 │── style.css
 │── script.js
@@ -58,7 +58,7 @@ Follow these steps to run and use the Task Flow application.
 Download or clone the project from GitHub.
 
 ```bash
-git clone https://github.com/Suhana183/TaskFlow.git
+git clone https://github.com/Suhana183/Todolistbysuhana.git
 ```
 
 Or download the ZIP file and extract it.

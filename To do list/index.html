@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Search Console Verification -->
+    <meta name="google-site-verification"
+        content="3L36jIq42tRiXEEO2Fn3Y7yN5CByDEm5wwN_LA_eqm0" />
+
+    <!-- SEO -->
+    <meta name="description"
+        content="Task Flow is a modern task management application to organize your daily tasks, improve productivity, and manage your schedule efficiently.">
+
+    <meta name="keywords"
+        content="Task Flow, Task Manager, To Do List, Productivity App, Daily Planner, HTML, CSS, JavaScript">
+
+    <meta name="author" content="Suhana">
+
+    <meta name="robots" content="index, follow">
+
+    <title>Task Flow | Modern Task Management App</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- =========================
+         Welcome Screen
+    ========================= -->
+
+    <section id="welcomeScreen" class="screen active">
+
+        <div class="welcome-card">
+
+            <div class="logo">
+                <i class="fa-solid fa-list-check"></i>
+            </div>
+
+            <h1>Welcome to</h1>
+
+            <h1>Task Flow</h1>
+
+            <p>
+                Organize your tasks and achieve your goals every day.
+            </p>
+
+            <button id="startBtn">
+                Get Started
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+         Home Screen
+    ========================= -->
+
+    <section id="homeScreen" class="screen">
+
+        <header>
+
+            <h2>Today's Tasks</h2>
+
+            <p id="todayDate"></p>
+
+        </header>
+
+        <div id="taskContainer">
+
+            <!-- Tasks will appear here -->
+
+        </div>
+
+        <button id="addTaskBtn">
+
+            <i class="fa-solid fa-plus"></i>
+
+        </button>
+
+    </section>
+
+    <!-- =========================
+         Add Task Screen
+    ========================= -->
+
+    <section id="addScreen" class="screen">
+
+        <div class="addCard">
+
+            <h2>Create Task</h2>
+
+            <input
+                type="text"
+                id="taskTitle"
+                placeholder="Task Title">
+
+            <textarea
+                id="taskDescription"
+                placeholder="Task Description"></textarea>
+
+            <label>Date & Time</label>
+
+            <input
+                type="datetime-local"
+                id="taskDate">
+
+            <label>Priority</label>
+
+            <select id="priority">
+
+                <option value="High">High</option>
+
+                <option value="Medium">Medium</option>
+
+                <option value="Low">Low</option>
+
+            </select>
+
+            <div class="buttons">
+
+                <button id="cancelBtn">
+                    Cancel
+                </button>
+
+                <button id="saveTaskBtn">
+                    Save Task
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
